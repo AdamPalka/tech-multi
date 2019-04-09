@@ -8,8 +8,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 `npm install -g @angular/cli`
 3. Klonujecie repozytorium
 4. Odpalacie cmd.exe w sklonowanym katalogu i wpisujecie:
+
 `npm install --save-dev angular-cli@latest`
+
 `npm install`
+
 `npm init` -> to przeklikujecie enterem, to wejdą ustawienia defaultowe
 
 Powinno już być dobrze, żeby odpalić apkę wpisujecie w cmd.exe `ng serve --open`, na końcu powinno wyskoczyć 'Compiled successfully.' 
