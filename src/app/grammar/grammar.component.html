@@ -1,0 +1,19 @@
+<div class="d-flex justify-content-center align-items-center  flex-column" style="margin-top:100px;">
+  <div class="img-wrapper" style="margin-bottom: 30px;">
+    <img src="{{grammar.url}}" />
+  </div>
+  <div class="label-wrapper" style="font-size: 40px;">
+    <label>{{grammar.left}}
+      <input  size="1" [(ngModel)]="grammar.userAnswer" />
+      {{grammar.right}}
+    </label>
+    <button (click)="onGrammarCheck()" type="button" class="btn btn-info" style="margin-left: 25px;">Sprawdź</button>
+    <button (click)="showHint()" type="button" class="btn btn-danger" style="margin-left: 25px;">Podpowiedź</button>
+     <br> 
+    Punkty: {{points}}
+    <br>
+    {{hint}}  
+    <br>
+    <div style="padding-left: auto;" toastrContainer></div>
+  </div>
+</div>
