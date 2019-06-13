@@ -1,0 +1,12 @@
+<div class="d-flex align-content-center justify-content-center flex-wrap" style="margin-top:200px;">
+  <div  class="col p-12 " *ngFor="let grammarRuleSet of grammarRuleSets">
+    <div class="card  shadow" style="margin-bottom: 50px;width: 14rem; height: 14rem;">
+      <div class="card-body">
+        <a routerLink="/polish/grammar/{{grammarRuleSet.id}}">
+          <h5 class="card-title">{{grammarRuleSet.name}}</h5>
+        </a>
+        <p class="card-text">Punkty: {{grammarRuleSet.points}}</p>
+      </div>
+    </div>
+  </div>
+</div>
