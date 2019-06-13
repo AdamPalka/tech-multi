@@ -1,0 +1,87 @@
+<div id=container *ngIf="isOpen">
+    
+    <div class="header">
+      NAUKA FIGUR GEOMETRYCZNYCH
+    </div>
+
+    <div id="content">
+      <div id="left-side">
+        <div class="figure">
+          <p class="figure-title">
+            KWADRAT
+          </p>
+          <div class="drawing">
+            <img src="assets/img/square.png" width="200px" height="200px"/>
+          </div>
+        </div>
+        <div class="figure">
+          <p class="figure-title">
+            PROSTOKĄT
+          </p>
+          <div class="drawing">
+            <img src="assets/img/rectangle.png" width="270px" height="200px"/>
+          </div>
+        </div>
+      </div>
+      <div id="game-window">
+        <div id="image-window">
+          <div class="game-title">
+              POLICZ ILE JEST [{{shapeToCountName | uppercase}}] NA OBRAZKU
+          </div>
+          <div class="game">
+            <img src="assets/img/{{imageSource}}" width="700px" height="370px"/>
+          </div>
+        </div>
+        <div id="answer-window">
+          <div class="answer-title">
+              ZAZNACZ ODPOWIEDŹ
+          </div>
+          <div class="points-title">
+            PUNKTY: 
+          </div>
+          <div class="number-of-points">
+            {{numberOfPoints}}
+          </div>
+          <div id="answer-buttons">
+            <button id="leftButton" (click)="onLeftButtonClick()">
+                {{answerLeft}}
+            </button>
+            <button class="button" id="midButton" (click)="onMidButtonClick()">
+                {{answerMid}}
+            </button>
+            <button class="button" id="rightButton" (click)="onRightButtonClick()">
+                {{answerRight}}
+            </button>
+            <button color="primary" [disabled]="isAnswerCorrect" class="button" id="nextlvl" (click)="onNextLevelButtonClick()">
+                KOLEJNY LVL
+            </button>
+          </div>
+        </div>
+      </div>
+      <div id="right-side">
+        <div class="figure">
+          <p class="figure-title">
+            TRÓJKĄT
+          </p>
+          <div class="drawing">
+            <img src="assets/img/triangle.png" width="200px" height="200px"/>
+          </div>
+        </div>
+        <div class="figure">
+          <p class="figure-title">
+            KOŁO
+          </p>
+          <div class="drawing">
+            <img src="assets/img/circle.png" width="200px" height="200px"/>
+          </div>
+        </div>
+      </div>
+    </div>
+</div> 
+
+
+
+
+
+
+
