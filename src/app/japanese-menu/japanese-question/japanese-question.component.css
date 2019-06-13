@@ -1,0 +1,27 @@
+.visZad1{
+    visibility: hidden;
+   }
+ 
+ .visZad2{
+     visibility: hidden;
+   }
+   .visZad3{
+     visibility: hidden;
+   }
+   .visZad4{
+     visibility: hidden;
+   }
+   .visZad5{
+     visibility: hidden;
+   }
+   .ifValid{
+    visibility: hidden;
+    color: red;
+}
+.NotVisible{
+  visibility: hidden;
+  color: red;
+}
+.color{
+  color: green;
+}

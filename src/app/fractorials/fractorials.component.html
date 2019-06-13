@@ -1,0 +1,65 @@
+
+
+<input type="text"  name="wartosc" size="1" 
+style="font-size:35px;height:32px;width:32px;position: relative; right: 500px;text-align: center; " 
+[class.posZad1correct]="zad1" (keyup)="onKey1($event)" #reference1>
+
+
+
+<input type="text" name="wartosc2" size="1" 
+style="font-size:35px;height:32px;width:32px; position: relative; right:500px;text-align: center;" 
+[class.posZad2correct]="zad2" (keyup)="onKey2($event)" #reference2>
+
+<input type="text" name="wartosc3" size="1" 
+style="font-size:35px;height:32px;width:32px; position: relative; right: 500px;text-align: center;"
+[class.posZad3correct]="zad3" (keyup)="onKey3($event)" #reference3>
+
+<div class="FirstTopBox" [class.posZad1]="zad1">
+      {{firstTop}}
+</div>
+<div class="FirstBotBox">
+      {{firstBot}}
+</div>
+
+<div class="SecondTopBox" [class.posZad2]="zad2">
+      {{secondTop}}
+ </div>
+<div class="SecondBotBox">
+      {{secondBot}}
+</div>
+
+<div class="ThirdTopBox" [class.posZad3]="zad3">
+      {{thirdTop}}       
+</div>
+<div class="ThirdBotBox">
+      {{thirdBot}}
+</div>
+      
+<div class="plus" [class.posZad4]="zad4"  [class.posZad5]="zad5">
+      +
+</div>
+
+<div class="minus">
+      -
+</div>
+
+<div class="equal">
+            =
+      </div>
+<div class = "check">
+            <button (click)="firstClick()">Sprawdz</button>
+
+</div>
+<div class="btn-group">
+            <button (click)="FractorialsZad1()" (click)="reference1.value=''">zad 1</button>
+            <button (click)="FractorialsZad2()" (click)="reference2.value=''">zad 2</button>
+            <button (click)="FractorialsZad3()"(click)="reference3.value=''">zad 3</button>
+            <button (click)="FractorialsZad4()"(click)="reference2.value=''">zad 4</button>
+            <button (click)="FractorialsZad5()"(click)="reference3.value=''">zad 5</button>
+</div> 
+<div class="sprawdzenie" [class.ifValid]='ifValid' >{{rozwiazanie}}</div>
+
+<body></body>
+            <div class="Container1">
+              <a routerLink="/" class ="logo">Powrót</a>
+            </div>

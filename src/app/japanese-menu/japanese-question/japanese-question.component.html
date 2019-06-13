@@ -1,0 +1,52 @@
+<h1>
+  Oblicz
+</h1>
+
+<div class="Question1" [class.visZad1]="zad1" style="position: absolute">
+    <p style="font-size: 40px;">11*11</p>
+</div>
+
+<div class="Question2" [class.visZad2]="zad2" style="position: absolute">
+    <p style="font-size: 40px;">11*18</p>
+</div>
+
+<div class="Question3" [class.visZad3]="zad3" style="position: absolute">
+    <p style="font-size: 40px;">23*14</p>
+</div>
+
+<div class="Question4" [class.visZad4]="zad4" style="position: absolute">
+    <p style="font-size: 40px;">17*21</p>
+</div>
+
+<div class="Question5" [class.visZad5]="zad5" style="position: absolute">
+    <p style="font-size: 40px;">15*26</p>
+</div>
+
+
+<div class="space" style="top:600px;"><br><br><br><br><br><br><br><br></div>
+<app-japanese-zad #rysunek></app-japanese-zad>
+<div class="btn-group">
+        <button (click)="JapaneseZad1()" (click)="reference1.value=''" >zad 1</button>
+        <button (click)="JapaneseZad2()" (click)="reference1.value=''" >zad 2</button>
+        <button (click)="JapaneseZad3()" (click)="reference1.value=''" >zad 3</button>
+        <button (click)="JapaneseZad4()" (click)="reference1.value=''" >zad 4</button>
+        <button (click)="JapaneseZad5()" (click)="reference1.value=''" >zad 5</button>
+        <button (click)="rysunek.pageRefresh()"  >Wyczyść</button>
+    </div> 
+
+<input type="text"  name="wartosc" size="5" 
+style="font-size:35px;height:60px;width:120px;position: absolute; left: 500px;top: 350px;text-align: center; " 
+(keyup)="onKey1($event)" #reference1>
+<div class = "check">
+        <button (click)="firstClick()" style="position: relative; left:500px;bottom: 250px;">Sprawdz</button>
+    </div>
+
+<div class="sprawdzenie" [class.NotVisible]="NotVisible" [class.color]="isCorrect" 
+style="position: relative;left:450px;bottom: 220px;">
+    {{rozwiazanie}}</div>
+
+<div class="Container1">
+    <a routerLink="/japanese-menu" class ="logo" >Powrót</a>
+</div>
+  
+  
