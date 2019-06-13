@@ -35,9 +35,11 @@
     "@angular/cli": "~7.3.8",
     "@angular/compiler-cli": "~7.2.0",
     "@angular/language-service": "~7.2.0",
-    "@types/node": "~8.9.4",
     "@types/jasmine": "~2.8.8",
     "@types/jasminewd2": "~2.0.3",
+    "@types/jquery": "^3.3.29",
+    "@types/node": "~8.9.4",
+    "angular-cli": "^1.0.0-beta.28.3",
     "codelyzer": "~4.5.0",
     "jasmine-core": "~2.99.1",
     "jasmine-spec-reporter": "~4.2.1",
@@ -50,5 +52,17 @@
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
     "typescript": "~3.2.2"
-  }
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.\r ## Instalacja środowiska\r 1. Pobieracie nodejs jak nie macie:\r `https://nodejs.org/en/`\r 2. Odpalacie cmd.exe i wpisujecie\r `npm install -g @angular/cli`\r 3. Klonujecie repozytorium\r 4. Odpalacie cmd.exe w sklonowanym katalogu i wpisujecie:",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdamPalka/tech-multi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdamPalka/tech-multi/issues"
+  },
+  "homepage": "https://github.com/AdamPalka/tech-multi#readme"
 }
