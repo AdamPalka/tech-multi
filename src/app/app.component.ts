@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'edu-app';
+  isCollapsed = true;
+
+  onClick() {
+    this.isCollapsed = false;
+  }
 }

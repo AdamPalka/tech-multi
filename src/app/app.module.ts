@@ -7,6 +7,8 @@ import { ToastrModule, ToastContainerModule } from 'ngx-toastr';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+
+import { LearnFiguresComponent } from './learn-figures/learn-figures.component';
 import { GrammarComponent } from './grammar/grammar.component';
 import { GrammarChooserComponent } from './grammar-chooser/grammar-chooser.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
@@ -15,6 +17,7 @@ import { GrammarHintComponent } from './grammar-hint/grammar-hint.component';
 @NgModule({
   declarations: [
     AppComponent,
+    LearnFiguresComponent,
     GrammarComponent,
     GrammarChooserComponent,
     NavBarComponent,
