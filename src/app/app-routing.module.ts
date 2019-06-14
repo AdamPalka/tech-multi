@@ -18,7 +18,7 @@ import { AngComponentComponent } from './ang-component/ang-component.component';
 
 
 const routes: Routes = [
-  {path: 'fractorials', component: FractorialsComponent}, 
+  {path: 'fractorials', component: FractorialsComponent},
   {path: 'fractorial-guide', component: FractorialGuideComponent},
   {path: '', component: MenuComponent},
   {path: 'mathMenu', component: MenuComponent},
