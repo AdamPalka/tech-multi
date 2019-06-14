@@ -11,6 +11,11 @@ export class Fractorials2Component implements OnInit {
   zad3=true;
   zad4=true;
   zad5=true;
+  zad1solved=false;
+  zad2solved=false;
+  zad3solved=false;
+  zad4solved=false;
+  zad5solved=false
   rozwiazanie='test';
   firstValue=0;
   secondValue=0;
@@ -72,38 +77,66 @@ export class Fractorials2Component implements OnInit {
       if(this.zad1==false)
       {
         if((this.secondValue*1)/(this.firstValue*1)==5)
+        {
         this.rozwiazanie='Brawo! To jest poprawna odpowiedz';
+        this.zad1solved=true;
+        }
         else
+        {
         this.rozwiazanie='Niestety, rozwiązanie jest błędne :(';
+        this.zad1solved=false;
+        }
       }
       if(this.zad2==false)
       {
         if((this.secondValue*1)/(this.firstValue*1)==2)
-        this.rozwiazanie='Brawo! To jest poprawna odpowiedz';
+        {
+          this.rozwiazanie='Brawo! To jest poprawna odpowiedz';
+          this.zad2solved=true;
+       }
         else
-        this.rozwiazanie='Niestety, rozwiązanie jest błędne :(';
+          {
+          this.rozwiazanie='Niestety, rozwiązanie jest błędne :(';
+          this.zad2solved=false;
+          }
       }
       if(this.zad3==false)
       {
         if((this.secondValue*1)/(this.firstValue*1)==5/4)
-        this.rozwiazanie='Brawo! To jest poprawna odpowiedz';
-        else
-        this.rozwiazanie='Niestety, rozwiązanie jest błędne :(';
+        {
+          this.rozwiazanie='Brawo! To jest poprawna odpowiedz';
+          this.zad3solved=true;
+          }
+          else
+          {
+          this.rozwiazanie='Niestety, rozwiązanie jest błędne :(';
+          this.zad3solved=false;
+          }
       }
       if(this.zad4==false)
       {
         if((this.secondValue*1)/(this.firstValue*1)==7/5)
-        this.rozwiazanie='Brawo! To jest poprawna odpowiedz';
-        else
-        this.rozwiazanie='Niestety, rozwiązanie jest błędne :(';
-      }
+        {
+          this.rozwiazanie='Brawo! To jest poprawna odpowiedz';
+          this.zad4solved=true;
+          }
+          else
+          {
+          this.rozwiazanie='Niestety, rozwiązanie jest błędne :(';
+          this.zad4solved=false;
+          }      }
       if(this.zad5==false)
       {
         if((this.secondValue*1)/(this.firstValue*1)==11/7)
-        this.rozwiazanie='Brawo! To jest poprawna odpowiedz';
-        else
-        this.rozwiazanie='Niestety, rozwiązanie jest błędne :(';
-      }
+        {
+          this.rozwiazanie='Brawo! To jest poprawna odpowiedz';
+          this.zad5solved=true;
+          }
+          else
+          {
+          this.rozwiazanie='Niestety, rozwiązanie jest błędne :(';
+          this.zad5solved=false;
+          }}
  
       }
     }  

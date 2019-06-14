@@ -1,47 +1,47 @@
 
 
 <h1>Jaka część okręgu jest zamalowana?</h1>
-<div class = "1_5" [class.visZad1]="zad1" style="position: absolute">
+<div class = "1_5" [class.visZad1]="zad1" style="position: absolute;left:40%;">
     <img src="assets/images/circle_1_5.gif" />
     </div>
 
-<div class = "3_6" [class.visZad2]="zad2" style="position: absolute">
+<div class = "3_6" [class.visZad2]="zad2" style="position: absolute;left:40%;">
 <img src="assets/images/circle_3_6.gif" />
 </div>
 
-<div class = "4_5" [class.visZad3]="zad3" style="position: absolute">
+<div class = "4_5" [class.visZad3]="zad3" style="position: absolute;left:40%;">
 <img src="assets/images/circle_4_5.gif"/>
 </div>
 
-<div class = "5_7" [class.visZad4]="zad4" style="position: absolute">
+<div class = "5_7" [class.visZad4]="zad4" style="position: absolute;left:40%;">
 <img src="assets/images/circle_5_7.gif" />
 </div>
 
-<div class = "7_11" [class.visZad5]="zad5" style="position: absolute">
+<div class = "7_11" [class.visZad5]="zad5" style="position: absolute;left:40%;">
 <img src="assets/images/circle_7_11.gif" />
 </div>
 
 <input type="text"  name="wartosc" size="5" 
-style="font-size:35px;height:60px;width:60px;position: absolute; left: 500px;text-align: center; " 
+style="font-size:35px;height:60px;width:60px;position: absolute; left: 70%;bottom:60%;text-align: center; " 
 [class.posZad1correct]="zad1" (keyup)="onKey1($event)" #reference1>
 
 
 
 <input type="text" name="wartosc2" size="5" 
-style="font-size:35px;height:60px;width:60px; position: absolute; left:500px;bottom:547px;text-align: center;" 
+style="font-size:35px;height:60px;width:60px; position: absolute; left:70%;bottom:50%;text-align: center;" 
 [class.posZad2correct]="zad2" (keyup)="onKey2($event)" #reference2>
 <div class = "check">
-    <button (click)="firstClick()" style="position: relative; left:500px;bottom: -200px;">Sprawdz</button>
+    <button (click)="firstClick()" style="position: relative; left:35%;top:100px">Sprawdz</button>
 </div>
  
-<div class="sprawdzenie" [class.ifValid]='visible' style="position: relative">{{rozwiazanie}}</div>
+<div class="sprawdzenie" [class.ifValid]='visible' style="position: relative;left:38%">{{rozwiazanie}}</div>
 
-<div class="btn-group" style="position: absolute; top:500px;">
-  <button (click)="FractorialsZad1()" (click)="reference1.value=''" (click)="reference2.value=''">zad 1</button>
-  <button (click)="FractorialsZad2()" (click)="reference1.value=''"(click)="reference2.value=''">zad 2</button>
-  <button (click)="FractorialsZad3()"(click)="reference1.value=''"(click)="reference2.value=''">zad 3</button>
-  <button (click)="FractorialsZad4()"(click)="reference1.value=''"(click)="reference2.value=''">zad 4</button>
-  <button (click)="FractorialsZad5()"(click)="reference1.value=''"(click)="reference2.value=''">zad 5</button>
+<div class="btn-group" style="position: absolute; top:500px;left:40%; color:red">
+  <button (click)="FractorialsZad1()" (click)="reference1.value=''" (click)="reference2.value=''" [class.color]='zad1solved'>zad 1</button>
+  <button (click)="FractorialsZad2()" (click)="reference1.value=''"(click)="reference2.value=''"[class.color]='zad2solved'>zad 2</button>
+  <button (click)="FractorialsZad3()"(click)="reference1.value=''"(click)="reference2.value=''"[class.color]='zad3solved'>zad 3</button>
+  <button (click)="FractorialsZad4()"(click)="reference1.value=''"(click)="reference2.value=''"[class.color]='zad4solved'>zad 4</button>
+  <button (click)="FractorialsZad5()"(click)="reference1.value=''"(click)="reference2.value=''"[class.color]='zad5solved'>zad 5</button>
 </div> 
 <div class="Container1" style="position: absolute; top:600px;">
   <a routerLink="/" class ="logo">Powrót</a>
