@@ -1,0 +1,24 @@
+.visZad1{
+   visibility: hidden;
+  }
+
+.visZad2{
+    visibility: hidden;
+  }
+  .visZad3{
+    visibility: hidden;
+  }
+  .visZad4{
+    visibility: hidden;
+  }
+  .visZad5{
+    visibility: hidden;
+  }
+  .sprawdzenie{
+      left:450px;
+      bottom: -130px;
+      
+  }
+  .ifValid{
+      visibility: hidden;
+  }

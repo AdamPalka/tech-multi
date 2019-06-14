@@ -1,0 +1,163 @@
+
+.container{
+    resize:vertical;
+    overflow:auto;  
+  }
+  .check{
+    border-color: rgb(219, 40, 40);
+    border-radius: 20px 10px 10px 10px;
+    border-style: none;
+    border-width: 0 0 3px;
+    padding: 30px 80px;
+  }
+  
+  .FirstTopBox {
+    border: 1px solid rgb(0, 0, 0) ;
+    width: 35px;
+    height: 35px;
+    font-size: 35px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 35px; 
+    position: relative; 
+    top:146px;
+  }
+  .FirstBotBox {
+    border: 1px solid rgb(0, 0, 0) ;
+    width: 35px;
+    height: 35px;
+    font-size: 35px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 35px; 
+    position: Relative;
+    top:146px;
+    
+  }
+  .SecondTopBox {
+    border: 1px solid rgb(0, 0, 0) ;
+    width: 35px;
+    height: 35px;
+    font-size: 35px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 35px; 
+    position: relative;
+    top:72px;
+    left:100px;
+  }
+  .SecondBotBox {
+    border: 1px solid rgb(0, 0, 0) ;
+    width: 35px;
+    height: 35px;
+    font-size: 35px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 35px; 
+    position: Relative;
+    top:72px;
+    left:100px;
+    
+  }
+  .ThirdTopBox {
+    border: 1px solid rgb(0, 0, 0) ;
+    width: 35px;
+    height: 35px;
+    font-size: 35px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 35px; 
+    position: Relative;
+    top:0px;
+    left:200px;
+  }
+
+  .ThirdBotBox {
+    border: 1px solid rgb(0, 0, 0) ;
+    width: 35px;
+    height: 35px;
+    font-size: 35px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 35px; 
+    position: relative;
+    top:0px;
+    left:200px;
+  }
+
+  
+  .plus {
+    position: absolute;
+    margin-left: 55px;
+    margin-top: -60px;
+    font-size: 35px;
+  }
+  .equal{
+    position: absolute;
+    margin-left: 155px;
+    margin-top: -60px;
+    font-size: 35px;
+  }
+  .minus{
+    position: absolute;
+    margin-top: -63px;
+    margin-left: 60px;
+    font-size: 35px;
+  }
+
+  .posZad1{
+    right:2500px;
+  }
+  .posZad1correct{
+    left:00px;
+    top:183px;
+  }
+  .posZad2{
+    left:2500px;
+  }
+  .posZad2correct{
+    left:61px;
+    top:185px;
+  }
+  .posZad3{
+    left:2500px;
+  }
+  .posZad3correct{
+    left:123px;
+    top:187px;
+  }
+  .posZad4{
+    left:5000px
+  }
+  .posZad5{
+    left:5000px
+  }
+
+  .ifValid{
+    width: 200px;
+    height: 100px;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 35px; 
+    position: relative; 
+    bottom:180px;
+    left:250px;
+  }
+  body {
+    object-fit: cover;
+    width: 1920px;
+    height: 0px;
+  }
+  .container1{
+    position: absolute;
+  }
+
+
+
+  
+
+  
+  
+
+  
