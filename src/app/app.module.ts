@@ -22,6 +22,7 @@ import { GrammarComponent } from './grammar/grammar.component';
 import { GrammarChooserComponent } from './grammar-chooser/grammar-chooser.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { GrammarHintComponent } from './grammar-hint/grammar-hint.component';
+import { AngComponentComponent } from './ang-component/ang-component.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { GrammarHintComponent } from './grammar-hint/grammar-hint.component';
     JapaneseZadComponent,
     JapaneseMenuComponent,
     JapaneseGuideComponent,
-    JapaneseQuestionComponent  ],
+    JapaneseQuestionComponent,
+    AngComponentComponent  ],
   imports: [
     CommonModule,
     BrowserModule,

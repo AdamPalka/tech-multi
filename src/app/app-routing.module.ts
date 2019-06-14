@@ -13,6 +13,7 @@ import { JapaneseMenuComponent } from './japanese-menu/japanese-menu.component';
 import { JapaneseZadComponent } from './japanese-menu/japanese-zad/japanese-zad.component';
 import { JapaneseGuideComponent } from './japanese-menu/japanese-guide/japanese-guide.component';
 import { JapaneseQuestionComponent } from './japanese-menu/japanese-question/japanese-question.component';
+import { AngComponentComponent } from './ang-component/ang-component.component';
 
 
 
@@ -28,6 +29,7 @@ const routes: Routes = [
   {path: 'japanese-question', component: JapaneseQuestionComponent},
   { path: 'polish/grammar/:id', component: GrammarComponent },
   { path: 'polish', component: GrammarChooserComponent },
+  { path: 'ang', component: AngComponentComponent },
   { path: 'learnFigures', component: LearnFiguresComponent}
 ];
 
