@@ -17,7 +17,7 @@ import { JapaneseQuestionComponent } from './japanese-menu/japanese-question/jap
 
 
 const routes: Routes = [
-  {path: 'fractorials', component: FractorialsComponent}, 
+  {path: 'fractorials', component: FractorialsComponent},
   {path: 'fractorial-guide', component: FractorialGuideComponent},
   {path: '', component: MenuComponent},
   {path: 'mathMenu', component: MenuComponent},
