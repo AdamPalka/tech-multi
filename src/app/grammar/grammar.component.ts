@@ -19,21 +19,22 @@ export class GrammarComponent implements OnInit {
     "Ó piszemy w wyrazach zakończonych na: - ów",
     "Ó piszemy w wyrazach zakończonych na: - ówka",
     "Ó piszemy na początku wyrazów",
-    "H piszemy tak o"
+    "H piszemy tak o",
+    "Ch piszemy po literze S"
   ]
 
   grammarRules = [
     [
     new GrammarRule(1, '', 'rbata', '', "H", 'assets/img/herbata.jpg', 6),
-    new GrammarRule(2, '', 'rbata', '', "H", 'assets/img/herbata.jpg', 6),
-    new GrammarRule(3, '', 'rbata', '', "H", 'assets/img/herbata.jpg', 6),
-    new GrammarRule(4, '', 'rbata', '', "H", 'assets/img/herbata.jpg', 6),
-    new GrammarRule(5, '', 'rbata', '', "H", 'assets/img/herbata.jpg', 6),
-    new GrammarRule(6, '', 'rbata', '', "H", 'assets/img/herbata.jpg', 6),
-    new GrammarRule(7, '', 'rbata', '', "H", 'assets/img/herbata.jpg', 6),
-    new GrammarRule(8, '', 'rbata', '', "H", 'assets/img/herbata.jpg', 6),
-    new GrammarRule(9, '', 'rbata', '', "H", 'assets/img/herbata.jpg', 6),
-    ],
+    new GrammarRule(2, 'S', 'ab', '', "ch", 'assets/img/schab.jpg',7),
+    new GrammarRule(3, 'W', 'z', '', "ó", 'assets/img/woz.jpg', 0),
+    new GrammarRule(4, 'K', 'zka', '', "ó", 'assets/img/koza.jpg', 0),
+    new GrammarRule(5, 'K', 'ra', '', "u", 'assets/img/kura.jpg', 0),
+    new GrammarRule(6, 'Str', 'mien', '', "u", 'assets/img/strumien.jpg', 0),
+    new GrammarRule(7, 'G', 'ry', '', "ó", 'assets/img/gory.jpg', 0),
+    new GrammarRule(8, 'M', 'r', '', "u", 'assets/img/mur.jpg', 0),
+    new GrammarRule(9, 'St', 'ł', '', "ó", 'assets/img/stol.jpg', 0)
+    ], 
     [
       new GrammarRule(1, 'Chm', 'ry', '', "u", 'assets/img/chmury.jpg', 0),
       new GrammarRule(2, 'Chm', 'ry', '', "u", 'assets/img/chmury.jpg', 0),
