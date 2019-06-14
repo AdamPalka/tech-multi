@@ -1,65 +1,65 @@
 
 
 <input type="text"  name="wartosc" size="1" 
-style="font-size:35px;height:32px;width:32px;position: relative; right: 500px;text-align: center; " 
+style="font-size:35px;height:32px;width:32px;position: relative; right:60%;text-align: center; " 
 [class.posZad1correct]="zad1" (keyup)="onKey1($event)" #reference1>
 
 
 
 <input type="text" name="wartosc2" size="1" 
-style="font-size:35px;height:32px;width:32px; position: relative; right:500px;text-align: center;" 
+style="font-size:35px;height:32px;width:32px; position: relative; right:60%;text-align: center;" 
 [class.posZad2correct]="zad2" (keyup)="onKey2($event)" #reference2>
 
 <input type="text" name="wartosc3" size="1" 
-style="font-size:35px;height:32px;width:32px; position: relative; right: 500px;text-align: center;"
+style="font-size:35px;height:32px;width:32px; position: relative; right: 60%;text-align: center;"
 [class.posZad3correct]="zad3" (keyup)="onKey3($event)" #reference3>
 
-<div class="FirstTopBox" [class.posZad1]="zad1">
+<div class="FirstTopBox" [class.posZad1]="zad1"style="left: 40%" >
       {{firstTop}}
 </div>
-<div class="FirstBotBox">
+<div class="FirstBotBox"style="left: 40%;">
       {{firstBot}}
 </div>
 
-<div class="SecondTopBox" [class.posZad2]="zad2">
+<div class="SecondTopBox" [class.posZad2]="zad2"style="left: 47%;">
       {{secondTop}}
  </div>
-<div class="SecondBotBox">
+<div class="SecondBotBox"style="left: 47%;">
       {{secondBot}}
 </div>
 
-<div class="ThirdTopBox" [class.posZad3]="zad3">
+<div class="ThirdTopBox" [class.posZad3]="zad3"style="left: 54%;">
       {{thirdTop}}       
 </div>
-<div class="ThirdBotBox">
+<div class="ThirdBotBox"style="left: 54%;">
       {{thirdBot}}
 </div>
       
-<div class="plus" [class.posZad4]="zad4"  [class.posZad5]="zad5">
+<div class="plus" [class.posZad4]="zad4"  [class.posZad5]="zad5"style="left: 40%;">
       +
 </div>
 
-<div class="minus">
+<div class="minus"style="left: 40%;">
       -
 </div>
 
-<div class="equal">
+<div class="equal"style="left: 40%;">
             =
       </div>
-<div class = "check">
+<div class = "check" >
             <button (click)="firstClick()">Sprawdz</button>
 
 </div>
 <div class="btn-group">
-            <button (click)="FractorialsZad1()" (click)="reference1.value=''">zad 1</button>
-            <button (click)="FractorialsZad2()" (click)="reference2.value=''">zad 2</button>
-            <button (click)="FractorialsZad3()"(click)="reference3.value=''">zad 3</button>
-            <button (click)="FractorialsZad4()"(click)="reference2.value=''">zad 4</button>
-            <button (click)="FractorialsZad5()"(click)="reference3.value=''">zad 5</button>
+            <button (click)="FractorialsZad1()" (click)="reference1.value=''"[class.color]='zad1solved'>zad 1</button>
+            <button (click)="FractorialsZad2()" (click)="reference2.value=''"[class.color]='zad2solved'>zad 2</button>
+            <button (click)="FractorialsZad3()"(click)="reference3.value=''"[class.color]='zad3solved'>zad 3</button>
+            <button (click)="FractorialsZad4()"(click)="reference2.value=''"[class.color]='zad4solved'>zad 4</button>
+            <button (click)="FractorialsZad5()"(click)="reference3.value=''"[class.color]='zad5solved'>zad 5</button>
 </div> 
 <div class="sprawdzenie" [class.ifValid]='ifValid' >{{rozwiazanie}}</div>
 
 <body></body>
-            <div class="Container1">
-              <a routerLink="/" class ="logo">Powrót</a>
+            <div class="Container1" style="position: absolute;top:500px">
+              <a routerLink="/" class ="logo" >Powrót</a>
             </div>

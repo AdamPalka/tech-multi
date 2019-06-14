@@ -11,25 +11,25 @@
 .plus{
     position:absolute;
    top:380px;
-   left:260px;
+   left:390px;
    font-size: 70px;
 }
 .equal{
     position:absolute;
     top:380px;
-    left:550px;
+    left:680px;
     font-size: 70px;    
 }
 .equal1{
     position:absolute;
-    top:1030px;
-    left:740px;
+    top:970px;
+    left:850px;
     font-size: 70px;    
 }
 .minus{
     position:absolute;
-    top:1020px;
-    left:480px;
+    top:970px;
+    left:580px;
     font-size: 70px;    
 }
 

@@ -17,7 +17,6 @@ export class JapaneseQuestionComponent implements OnInit {
   value=0;
   rozwiazanie='';
   NotVisible=true;
-  isCorrect=false;
   ngOnInit() {
   }
   onKey1(event) {this.value = event.target.value;
@@ -74,7 +73,6 @@ export class JapaneseQuestionComponent implements OnInit {
   {
     this.rozwiazanie='';
     this.NotVisible=true;
-    this.isCorrect=false;
   }
 
 
@@ -83,62 +81,39 @@ export class JapaneseQuestionComponent implements OnInit {
     if(this.zad1==false)
     {
       if((this.value*1)==121)
-      {
       this.rozwiazanie='Brawo! To jest poprawna odpowiedz';
-      this.isCorrect=true;
-      }
       else
-      {
-        this.rozwiazanie='Niestety, rozwiązanie jest błędne :(';
-        this.isCorrect=false;
-      }
+      this.rozwiazanie='Niestety, rozwiązanie jest błędne :(';
     }
     if(this.zad2==false)
     {
       if(this.value*1==198)
-      {
       this.rozwiazanie='Brawo! To jest poprawna odpowiedz';
-      this.isCorrect=true;
-      }
       else
-      {
       this.rozwiazanie='Niestety, rozwiązanie jest błędne :(';
-      this.isCorrect=false;
-      }
     }
     if(this.zad3==false)
     {
       if(this.value*1==322)
-      {
       this.rozwiazanie='Brawo! To jest poprawna odpowiedz';
-      this.isCorrect=true;
-      }
       else
-      {
       this.rozwiazanie='Niestety, rozwiązanie jest błędne :(';
-      this.isCorrect=false;
-      }
     }
     if(this.zad4==false)
     {
+      if(this.value*1==357)
       this.rozwiazanie='Brawo! To jest poprawna odpowiedz';
-      this.isCorrect=true;
-      }
       else
-      {
       this.rozwiazanie='Niestety, rozwiązanie jest błędne :(';
-      this.isCorrect=false;
-      }
+    }
     if(this.zad5==false)
     {
+      if(this.value*1==390)
       this.rozwiazanie='Brawo! To jest poprawna odpowiedz';
-      this.isCorrect=true;
-      }
       else
-      {
       this.rozwiazanie='Niestety, rozwiązanie jest błędne :(';
-      this.isCorrect=false;
-      }
+    }
+
     }
 
 

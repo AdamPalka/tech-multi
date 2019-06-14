@@ -106,31 +106,35 @@
   }
 
   .posZad1{
-    right:2500px;
+    visibility: hidden;
   }
   .posZad1correct{
-    left:00px;
+    left:-6.6%;
     top:183px;
+
   }
+
+  
   .posZad2{
-    left:2500px;
+    visibility: hidden;
   }
   .posZad2correct{
-    left:61px;
-    top:185px;
+    /*left:61px;*/
+    left:-1.8%;
+    top:180px;
   }
   .posZad3{
-    left:2500px;
+    visibility: hidden;
   }
   .posZad3correct{
-    left:123px;
-    top:187px;
+    left:3%;
+    top:179px;
   }
   .posZad4{
-    left:5000px
+    visibility: hidden;
   }
   .posZad5{
-    left:5000px
+    visibility: hidden;
   }
 
   .ifValid{
@@ -153,7 +157,14 @@
     position: absolute;
   }
 
+  .color{
+    background-color: #4CAF50;
+    
+  }
+  .btn-group button {
+    color: black; /* White text */
 
+  }
 
   
 

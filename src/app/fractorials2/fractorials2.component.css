@@ -22,3 +22,11 @@
   .ifValid{
       visibility: hidden;
   }
+  .color{
+    background-color: #4CAF50;
+    
+  }
+  .btn-group button {
+    color: black; /* White text */
+
+  }

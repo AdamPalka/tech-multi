@@ -16,12 +16,9 @@
    }
    .ifValid{
     visibility: hidden;
-    color: red;
+    
 }
 .NotVisible{
   visibility: hidden;
-  color: red;
-}
-.color{
-  color: green;
+ 
 }
