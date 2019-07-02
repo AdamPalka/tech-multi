@@ -13,7 +13,5 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 `npm install`
 
-`npm init` -> to przeklikujecie enterem, to wejdą ustawienia defaultowe
-
 Powinno już być dobrze, żeby odpalić apkę wpisujecie w cmd.exe `ng serve --open`, na końcu powinno wyskoczyć 'Compiled successfully.' 
 Wpisujecie w przeglądarce `http://localhost:4200/`.
