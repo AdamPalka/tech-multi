@@ -43,16 +43,16 @@
             {{numberOfPoints}}
           </div>
           <div id="answer-buttons">
-            <button id="leftButton" (click)="onLeftButtonClick()">
+            <button id="leftButton" style="padding-bottom: 2px;padding-top: 2px;"  (click)="onLeftButtonClick()">
                 {{answerLeft}}
             </button>
-            <button class="button" id="midButton" (click)="onMidButtonClick()">
+            <button class="button" id="midButton" style="padding-bottom: 2px;padding-top: 2px;" (click)="onMidButtonClick()">
                 {{answerMid}}
             </button>
-            <button class="button" id="rightButton" (click)="onRightButtonClick()">
+            <button class="button" id="rightButton" style="padding-bottom: 2px;padding-top: 2px;"  (click)="onRightButtonClick()">
                 {{answerRight}}
             </button>
-            <button color="primary" [disabled]="isAnswerCorrect" class="button" id="nextlvl" (click)="onNextLevelButtonClick()">
+            <button color="primary" [disabled]="isAnswerCorrect" style="padding-bottom: 2px;padding-top: 2px;"  class="button" id="nextlvl" (click)="onNextLevelButtonClick()">
                 KOLEJNY LVL
             </button>
           </div>
